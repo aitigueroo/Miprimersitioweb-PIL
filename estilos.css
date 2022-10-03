@@ -1,0 +1,39 @@
+.card-img{
+    height: 500px;
+
+}
+
+.card-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder;
+
+}
+h2{
+    text-align: center;
+}
+.card-img-top {
+    height: 290px;
+    
+}
+
+.d-block{
+    height: 600px;
+    width: 500px;
+}
+
+.logo {
+    height: 40px;
+    padding: 4px;
+}
+
+.card{
+    max-width: 5000px;
+}
+.letra{
+    font-size: 28px;
+}
+.card{
+    background-color: rgb(173, 194, 169);
+    font-family:sans-serif;
+}

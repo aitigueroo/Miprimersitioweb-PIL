@@ -1,234 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Ushuaia</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:  rgb(173, 194, 169)";>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="imagenes/faro.png" alt="" width="32" height="30" class="d-inline-block align-text-top">
-            UshuBlog
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Ushuaia
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#informacion">Informacion</a></li>
-                    <li><a class="dropdown-item" href="#lugares">Lugares para visitar</a></li>
-                    <li><a class="dropdown-item" href="#cosas">Cosas para hacer</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link  active" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
-            </li>
+    <section id="information">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Título de tu página</title>
+            <link rel="stylesheet" href="estilos.css">
+        </head>
+        <header>
+            <img src="Picsart_23-04-09_01-33-30-462.jpg" alt="Foto de Aitana Aguero" style="width: 1500px; height: 180px;" />
+            <h1>Aitana Aguero</h1>
+            <p>Software Designer</p>   
+    
+        </header>
+    
+        <article>
+            <h2>About</h2>    
+            <p>I am a software designer with over twelve years of experience in designing both consumer and business products, honed through collaboration with talented teams from the United States, Japan, and Australia.</p>
+            <p>Now, after many years away I'm back home. Living in Canterbury, New Zealand. Where I spend my time working to understand how design can help everyday New Zealanders, while reading about the history of video game development and riding track bikes.</p>        
+        </article>
+    
+        <article>
+            <h2>Interests</h2>
+            <p>Topics that occupy my time, capturing my curiosity and driving my learning:</p>  
+            <ul>
+                <li>Product Discovery</li>
+                <li>Mentorship, Coaching</li>
+                <li>Game Design, Theory</li>
+                <li>TypeScript, Lua</li>
+            </ul>   
+        </article>
+    
+        <article>
+            <h2>Work</h2>    
+            <p>Presently I remotely lead design at <a href="https://www.moneytree.jp/" target="_blank">Moneytree</a> as a fractional Director of Design, building Japan's privacy-first financial data platform. Before that I worked with product and design teams at <a href="https://www.rainforestqa.com/" target="_blank">Rainforest</a>, <a href="https://www.techinasia.com/mercari-acquires-origami/" target="_blank">Origami</a>, <a href="https://www.xero.com/" target="_blank">Xero</a> and <a href="https://www.facebook.com/" target="_blank">Facebook</a>.</p>
+            <p>For more details feel free to reach out and I'll be happy to provide a more in-depth overview.</p>    
+        </article>
+    
+        <article id="projects">
+            <h2>Projects</h2>
+            <p>A few ideas that I've gone ahead and built in my spare time. You can support them if you like by <a href="https://www.buymeacoffee.com/KLEzuxU" target="_blank">donating here</a>.</p> 
+            <ul>
+                <li><a href="https://www.lexaloffle.com/bbs/?tid=51977" target="_blank">Gomoku Narabe</a> — A PICO-8 game of Gomoku against an entertaining AI player.</li>
+                <li><a href="https://github.com/jonathontoon/manifest/" target="_blank">Manifest</a> — An incredibly simple grid-based pinboard for note taking.</li>
+                <li><a href="https://github.com/jonathontoon/tweet-tray/" target="_blank">Tweet Tray</a> — Compose tweets quickly from the desktop without any distractions.</li>
+                <li><a href="https://www.figma.com/community/file/1023941504502682147" target="_blank">PICO-8 Styles</a> — A set of Figma color styles from the fantasy console PICO-8.</li>
             </ul>
-        </div>
-        </div>
-    </nav>
-
-    <header>
-        <div class="card bg- text-white">
-            <img src="imagenes/ushuaia-4073637.jpg" class="card-img" alt="ushuaia">
-            <div class="card-img-overlay">
-                <h5 class="card-title" id="inicio"> inicio</h5>
-            </div>
-        </div>
-    </header>
-    <br>
-    <br>
-    <div class="informacion">
-<section>
-    <div>
-    <h2 id="informacion">Infomacion sobre ushuaia</h2>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d73583.2465104865!2d-68.37301470395728!3d-54.806743951267435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4c22b5bad109bf%3A0x5498473dba43ebfc!2sUshuaia%2C%20Tierra%20del%20Fuego!5e0!3m2!1ses-419!2sar!4v1664740086864!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col">
-                <p> <b>Ushuaia</b>, oficialmente Ciudad de Ushuaia, es una ciudad de la <b> República Argentina </b> ubicada en el Departamento de Ushuaia de la <b> Provincia de Tierra del Fuego , Antártida e Islas del Atlántico Sur</b>, de la cual es su capital. Fue fundada el 12 de octubre de 1884 por Augusto Lasserre como Fuerte Ushuaia sobre el asentamiento de la antigua misión anglicana de Thomas Bridges.
-                    <br>
-                    La ciudad se ubica en la costa de la <em> isla Grande de Tierra del Fuego</em> que da a la bahía de Ushuaia en el <b> canal Beagle</b>, y está rodeada por la cadena montañosa del <em> Martial</em>. <br> Además de ser un centro administrativo, es un nodo industrial, portuario y turístico.
-                    Ushuaia, con una población de más de <em> 70.000 habitantes</em>, es considerada generalmente como <b> "la ciudad más austral del mundo." </b> <br>
-                    
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
-<div>
-<section class="lugares">
-<div>
-    <br>
-    <h2 id="lugares">Lugares para visitar</h2>
-</div>
-<br>
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-        <div class="card h-100">
-            <img src="imagenes/Parque.jpg" class="card-img-top" alt="parque">
-        <div class="card-body">
-            <h5 class="card-title">Parque Nacional </h5>
-        </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card h-100">
-                <img src="imagenes/castor.jpg" class="card-img-top" alt="cerro castor">
-            <div class="card-body">
-                <h5 class="card-title">Cerro Castor</h5>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card h-100">
-                <img src="imagenes/presidio.jpg" class="card-img-top" alt="museo presidio">
-            <div class="card-body">
-                <h5 class="card-title" >Museo Del Presidio</h5>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card h-100">
-                <img src="imagenes/beagle.jpg" class="card-img-top" alt="canal del beagle">
-            <div class="card-body">
-                <h5 class="card-title">Canal Del Beagle</h5>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card h-100">
-                <img src="imagenes/tren.jpg" class="card-img-top" alt="tren">
-            <div class="card-body">
-                <h5 class="card-title">Tren Del Fin Del Mundo</h5>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card">
-                <img src="imagenes/glaciar.jpg" class="card-img-top" alt="glaciar">
-            <div class="card-body">
-                <h5 class="card-title">Glaciar Martial</h5>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-</div>
-
-<br>
-<br>
-<div>
-<section>
-    <div>
-        <h2 id="cosas">Actividades para realizar</h2>
-    </div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner card-body">
-            <div class="carousel-item active card-body">
-                <img src="imagenes/barco3.jpg" class="d-block w-100" alt="barco">
-            <div class="carousel-caption d-none d-md-block">
-                <h5 class="letra">Tours en barco</h5>
-            </div>
-            </div>
-            <div class="carousel-item card-body">
-            <img src="imagenes/ciudad2.jpg" class="d-block w-100" alt="ciudad">
-            <div class="carousel-caption d-none d-md-block">
-                <h5 class="letra">Tours por la ciudad</h5>
-            </div>
-            </div>
-            <div class="carousel-item card-body">
-            <img src="imagenes/caminata5.jpg" class="d-block w-100" alt="caminata">
-            <div class="carousel-caption d-none d-md-block">
-                <h5 class="letra">Tours de senderismo</h5>
-            </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previsualizacion</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Proxima</span>
-        </button>
-    </div>
-</section>
-</div>
-
-<br>
-    <footer
-            class="text-center text-lg-start text-black"
-            style="background-color: rgb(211, 228, 205)"
-            >
-    <div class="container p-4 pb-0">
-        <section class="">
-            <div class="row">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold" id="contacto">
-                Sobre nosotros
-                </h6>
-                <p>
-                
-                </p>
-            </div>
-            <hr class="w-100 clearfix d-md-none" />  
-            <hr class="w-100 clearfix d-md-none" />
-            <hr class="w-100 clearfix d-md-none" />
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Contactanos</h6>
-                <p><i class="fas fa-home mr-3"></i> Argentina, Tierra del Fuego </p>
-                <p><i class="fas fa-envelope mr-3"></i> ushublogmail.com</p>
-                <p><i class="fas fa-phone mr-3"></i> +54 439843943439</p>
-            </div>
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Seguinos en nuestras redes sociales</h6>
-                <a><img src="imagenes/facebook.png" alt="facebook" class="logo"></a>
-                <a><img src="imagenes/twitter.png" alt="twitter" class="logo"></a>
-                <a><img src="imagenes/instagram.png" alt="instagram" class="logo">
-                </a>
-            </div>
-        </div>
-        </section>
-    </div>
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        </article>
+    
+        <article>
+            <h2>Contact</h2>
+            <p>I'd be happy to write back if you'd like to send me an <a href="mailto:aitiaguero25@gmail.com" target="_blank">email</a>. I also provide mentorship sessions for designers on <a href="https://adplist.org/mentors/jonathon-toon" target="_blank">ADPList</a>.</p>
+            <p>Otherwise you can follow me on <del><a href="https://twitter.com/jonathontoon/" target="_blank">Twitter</a></del> <a href="https://merveilles.town/@toon" target="_blank">Mastodon</a>, <a href="https://github.com/jonathontoon/" target="_blank">Github</a> or <a href="https://linkedin.com/in/jonathontoon/" target="_blank">LinkedIn</a>.</p>
+        </article>
+    
+        <footer>
+            <p>The information on this web page was last updated {{ buildDate }}. Content provided under <a href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank">CC BY-NC 3.0</a>.</span> 
+        </footer>
+    
+    </section>
+    
 </html>
